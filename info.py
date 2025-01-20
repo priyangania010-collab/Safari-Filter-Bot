@@ -94,9 +94,9 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/up')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Safaribotts')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001433302422))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002409558601))
 GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1001998895377)) # Group verify stats 
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1001998895377)) # movies request channel, else log channel
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002473815816)) # movies request channel, else log channel
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Jhwjwp')
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -115,7 +115,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 REACTION = ["🔥", "❤️", "😍", "⚡", "👍", "❤", "🔥", "🥰", "👏", "😁", "🎉", "🤩", "🙏", "👌", "🕊", "❤‍🔥", "⚡", "😇", "🤗", "😘", "🙊", "😎"]
 
 # Streaming
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1001637710147")) 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1002426589735")) 
 PORT = int(environ.get('PORT', 8080))
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
