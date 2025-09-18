@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', "24870301"))
-API_HASH = environ.get('API_HASH', "5bcc6d5a90ad19da0989d635a36942af")
-BOT_TOKEN = environ.get('BOT_TOKEN', "7221872059:AAE8vrOrwcuBHg2goc7lanUAxAVT67Eb9mU")
+API_ID = int(environ.get('API_ID', "25274965"))
+API_HASH = environ.get('API_HASH', "d1af246ebbfb198fe438cae67372abf1")
+BOT_TOKEN = environ.get('BOT_TOKEN', "8346082859:AAGjYAf20xQHgzxBT0-Fzo1xJOnWOh0OG74")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Colombo")
 
 # Bot settings
@@ -42,14 +42,14 @@ PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
 FILE_LIMITE = int(environ.get('FILE_LIMITE', 15))
 SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 3))
-LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
+LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'False')), False)
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1481322134').split()]
 OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "Bitget_srilankan") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002450577884').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002892281095').split()]
 # post channel auto post new movie
-POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002408329772').split(','))))
+POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002324418733').split(','))))
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '0'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
