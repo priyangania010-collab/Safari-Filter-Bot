@@ -55,7 +55,7 @@ AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://savindukaushalya29_db_user:euUvJeZcsI42h7ez@db2.aadpenw.mongodb.net/?retryWrites=true&w=majority&appName=db2")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://dhyeyrepo_db_user:L1sf77qxgHcx5OoM@repo.v4hrlux.mongodb.net/?retryWrites=true&w=majority&appName=repo")
 DATABASE_NAME = environ.get('DATABASE_NAME', "webapp")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'webapp')
 
