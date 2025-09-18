@@ -59,7 +59,7 @@ async def start(client, message):
             buttons = [[
                         InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton("🌐 ᴡᴇʙᴀᴘᴘ", web_app="https://interim-lenna-oldtgbota-6700197b.koyeb.app/"), 
+                        InlineKeyboardButton("🌐 ᴡᴇʙᴀᴘᴘ", url="http://t.me/VIPap2Bot/file"), 
                         InlineKeyboardButton('⚔️ғᴇᴀᴛᴜʀᴇs ⚔️', callback_data='features')
                     ],[
                         InlineKeyboardButton('🍀 Hᴇʟᴘ 🍀', callback_data='help'),
@@ -81,7 +81,7 @@ async def start(client, message):
             buttons = [[
                         InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton("🌐 ᴡᴇʙᴀᴘᴘ", web_app=="https://interim-lenna-oldtgbota-6700197b.koyeb.app/"), 
+                        InlineKeyboardButton("🌐 ᴡᴇʙᴀᴘᴘ", url="http://t.me/VIPap2Bot/file"), 
                         InlineKeyboardButton('⚔️ ғᴇᴀᴛᴜʀᴇs ⚔️', callback_data='features')
                     ],[
                         InlineKeyboardButton('🍀 Hᴇʟᴘ 🍀', callback_data='help'),
